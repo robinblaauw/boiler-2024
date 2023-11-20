@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  h1 {
+    @apply text-4xl md:text-6xl font-semibold;
+  }
+  h2 {
+    @apply text-2xl md:text-3xl font-semibold;
+  }
+  p {
+    @apply leading-loose text-sm opacity-70;
+  }
+  .intro-text {
+    @apply text-lg;
+  }
+}
